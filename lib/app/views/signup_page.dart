@@ -194,7 +194,9 @@ class SignUpPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(
                       20.w,
                     ),
-                    onTap: () {},
+                    onTap: () {
+                      Get.toNamed('/dashboard');
+                    },
                     child: Center(
                       child: Text(
                         'Sign In',

@@ -192,7 +192,9 @@ class LoginPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(
                       20.w,
                     ),
-                    onTap: () {},
+                    onTap: () {
+                      Get.toNamed(Routes.DASHBOARD);
+                    },
                     child: Center(
                       child: Text(
                         'Continue',

@@ -1,4 +1,5 @@
 import 'package:bitlearn/app/routes/app_routes.dart';
+import 'package:bitlearn/app/views/main_page.dart';
 import 'package:bitlearn/app/views/home_page.dart';
 import 'package:bitlearn/app/views/login_page.dart';
 import 'package:bitlearn/app/views/signup_page.dart';
@@ -22,6 +23,10 @@ class AppPages {
     GetPage(
       name: Routes.HOME,
       page: HomePage.new,
+    ),
+    GetPage(
+      name: Routes.DASHBOARD,
+      page: MainPage.new,
     ),
   ];
 }
