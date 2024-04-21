@@ -9,5 +9,6 @@ class AppColors {
   static const white1 = Color(0xffEBEBEB);
   static const white2 = Color(0xffFDFDFD);
   static const white3 = Color(0xffE3E9ED);
+  static const orange = Color(0xffE3562A);
   // Add more color constants here
 }
